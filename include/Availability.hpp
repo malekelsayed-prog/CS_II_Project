@@ -17,7 +17,6 @@ class Availability {
         ~Availability();
 
         std::vector<TimeSlot> generateTimeSlots();
-
 };
 
 #endif
