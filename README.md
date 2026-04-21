@@ -186,7 +186,8 @@ make
 ## Author
 
 Malek Ahmed Elsayed
-Computer Science Student, The American University in Cairo
+Karim Allam
+
 
 ---
 
