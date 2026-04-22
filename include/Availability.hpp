@@ -13,9 +13,7 @@ class Availability {
         std::string endTime;
 
     public:
-        Availability();
-        ~Availability();
-
+        Availability(std::string ID, std::string day, std::string start, std::string end);
         std::vector<TimeSlot> generateTimeSlots();
 };
 

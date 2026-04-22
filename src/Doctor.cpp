@@ -1,5 +1,7 @@
 #include "../include/Doctor.hpp"
 
+Doctor::Doctor(std::string id, std::string name, std::string department) : doctorID(id), name(name), department(department) {} 
+
 std::string Doctor::getDoctorDep() {
     return department;
 }
