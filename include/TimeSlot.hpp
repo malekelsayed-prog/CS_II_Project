@@ -10,6 +10,12 @@ class TimeSlot {
         bool isBooked;
     
     public:
+        TimeSlot(const std::string& start, const std::string& end);
+        
+        std::string getStartTime() const;
+        std::string getEndTime() const;
+        bool checkBooked() const;
+        
         void markBooked();
 };
 

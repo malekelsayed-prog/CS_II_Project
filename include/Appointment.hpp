@@ -13,8 +13,16 @@ class Appointment {
         std::string endTime;
     
     public:
-        bool isValid();
-        bool overlaps(Appointment a);
+        Appointment(const std::string& id, const std::string& patient, const std::string& doctor, const std::string& date, const std::string& start, const std::string& end);
+
+        std::string getAppointmentID() const;
+        std::string getPatientID() const;
+        std::string getDoctorID() const;
+        std::string getDate() const;
+        std::string getStartTime() const;
+        std::string getEndTime() const;
+
+        bool overlaps(const Appointment& other);
 };
 
 #endif

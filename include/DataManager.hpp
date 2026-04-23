@@ -4,14 +4,15 @@
 #include "Appointment.hpp"
 #include "Patient.hpp"
 #include <vector>
+#include <string>
 
 
 class DataManager {
     public:
-        void savePatients(std::vector<Patient> patients);
-        std::vector<Patient> loadPatients();
-        void saveAppointments(std::vector<Appointment> apps);
-        std::vector<Appointment> loadAppointments();
+        void savePatients(const std::vector<Patient>& patients, const std::string& filePath);
+        std::vector<Patient> loadPatients(const std::string& filePath);
+        void saveAppointments(const std::vector<Appointment>& appointments, const std::string& filePath);
+        std::vector<Appointment> loadAppointments(const std::string& filePath);
 };
 
 #endif

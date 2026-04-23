@@ -3,13 +3,15 @@
 
 #include <string>
 #include <vector>
+#include "Doctor.hpp"
 #include "TimeSlot.hpp"
 
 class ScheduleManager {
     public:
-        std::vector<TimeSlot> filterByDoctor(std::string name);
-        std::vector<TimeSlot> filterByDepartment(std::string dept);
-        void generateTimetable();
+        std::vector<Doctor> filterByDoctor(const std::vector<Doctor>& doctors, const std::string& name);
+        std::vector<Doctor> filterByDepartment(const std::vector<Doctor>& doctors, const std::string& department);
+        
+        void getDoctorSlots(const Doctor& doctor);
 };
 
 #endif

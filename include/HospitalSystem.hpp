@@ -3,7 +3,7 @@
 
 #include "Patient.hpp"
 #include "Doctor.hpp"
-#include "Appointment.hpp"
+#include "AppointmentManager.hpp"
 #include <vector>
 
 class HospitalSystem {
@@ -11,14 +11,16 @@ class HospitalSystem {
         std::vector<Patient> patients;
         std::vector<Doctor> doctors;
         std::vector<Appointment> appointments;
+        AppointmentManager appointmentManager;
+
 
     public:
         void loadDoctorsFromCSV();
         void loadAvailabilityFromCSV();
         void loadData();
         void saveData();
-        bool addPatient(Patient p);
-        bool bookAppointment(Appointment a);
+        bool addPatient(const Patient& p);
+        bool bookAppointment(const Appointment& a);
         void filterSchedule();
         std::vector<TimeSlot> getAvailableSlots();
 };

@@ -13,10 +13,14 @@ class Doctor {
         std::vector<Availability> availability;
 
     public:
-        std::string getDoctorID();
-        std::string getDoctorName();
-        std::string getDoctorDep();
-        std::vector<TimeSlot> getAvailableSlots(); 
+        Doctor(std::string id, std::string name, std::string department);
+        
+        std::string getDoctorID() const;
+        std::string getName() const;
+        std::string getDepartment() const;
+        std::vector<Availability> getAvailableSlots() const; 
+
+        void addAvailability(const Availability& a);
 };
 
 #endif
