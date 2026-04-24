@@ -1,4 +1,4 @@
-#include "../include/Availability.hpp"
+#include "../../include/models/Availability.hpp"
 #include <vector>
 
 Availability::Availability(std::string id, std::string day, std::string start, std::string end) : doctorID(id), weekday(day), startTime(start), endTime(end) {}

@@ -1,8 +1,8 @@
 #ifndef DATAMANAGER_HPP
 #define DATAMANAGER_HPP
 
-#include "Appointment.hpp"
-#include "Patient.hpp"
+#include "../models/Appointment.hpp"
+#include "../models/Patient.hpp"
 #include <vector>
 #include <string>
 

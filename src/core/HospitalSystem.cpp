@@ -1,4 +1,4 @@
-#include "../include/HospitalSystem.hpp"
+#include "../../include/core/HospitalSystem.hpp"
 
 
 bool HospitalSystem::addPatient(const Patient& p) {

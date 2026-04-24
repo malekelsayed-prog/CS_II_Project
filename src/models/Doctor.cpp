@@ -1,4 +1,4 @@
-#include "../include/Doctor.hpp"
+#include "../../include/models/Doctor.hpp"
 
 Doctor::Doctor(std::string id, std::string name, std::string department) : doctorID(id), name(name), department(department) {} 
 

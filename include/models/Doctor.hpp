@@ -1,7 +1,7 @@
 #ifndef DOCTOR_HPP
 #define DOCTOR_HPP
 
-#include "Availability.hpp"
+#include "../models/Availability.hpp"
 #include <string>
 #include <vector>
 

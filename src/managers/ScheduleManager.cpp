@@ -1,4 +1,4 @@
-#include "../include/ScheduleManager.hpp"
+#include "../../include/managers/ScheduleManager.hpp"
 
 std::vector<Doctor> filterByDoctor(const std::vector<Doctor>& doctors, const std::string& name) {
     std::vector<Doctor> result;

@@ -1,4 +1,4 @@
-#include "../include/AppointmentManager.hpp"
+#include "../../include/core/AppointmentManager.hpp"
 
 bool AppointmentManager::checkConflict(const Appointment& a, const std::vector<Appointment>& existing) {
     for (const auto& app : existing) {

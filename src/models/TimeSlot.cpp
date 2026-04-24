@@ -1,4 +1,4 @@
-#include "../include/TimeSlot.hpp"
+#include "../../include/models/TimeSlot.hpp"
 
 TimeSlot::TimeSlot(const std::string& start, const std::string& end) : startTime(start), endTime(end), isBooked(false) {}
 

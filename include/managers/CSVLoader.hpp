@@ -1,9 +1,9 @@
 #ifndef CSVLOADER_HPP
 #define CSVLOADER_HPP
 
-#include "Doctor.hpp"
+#include "../models/Doctor.hpp"
 #include <string>
-#include <thread>
+
 
 class CSVLoader {
     public:

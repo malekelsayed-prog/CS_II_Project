@@ -1,4 +1,4 @@
-#include "../include/Appointment.hpp"
+#include "../../include/models/Appointment.hpp"
 
 Appointment::Appointment(const std::string& id,
                          const std::string& patient,

@@ -1,7 +1,7 @@
 #ifndef APPOINTMENTMAN_HPP
 #define APPOINTMENTMAN_HPP
 
-#include "Appointment.hpp"
+#include "../models/Appointment.hpp"
 #include <string>
 #include <vector>
 

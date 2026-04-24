@@ -1,9 +1,9 @@
 #ifndef HOSPITAL_SYSTEM_HPP
 #define HOSPITAL_SYSTEM_HPP
 
-#include "Patient.hpp"
-#include "Doctor.hpp"
-#include "AppointmentManager.hpp"
+#include "../models/Patient.hpp"
+#include "../models/Doctor.hpp"
+#include "../core/AppointmentManager.hpp"
 #include <vector>
 
 class HospitalSystem {

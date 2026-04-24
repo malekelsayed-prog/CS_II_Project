@@ -1,4 +1,4 @@
-#include "../include/Patient.hpp"
+#include "../../include/models/Patient.hpp"
 
 Patient::Patient(const std::string& name, 
                  const std::string& birthdate, 

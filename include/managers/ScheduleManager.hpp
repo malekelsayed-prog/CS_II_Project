@@ -3,8 +3,8 @@
 
 #include <string>
 #include <vector>
-#include "Doctor.hpp"
-#include "TimeSlot.hpp"
+#include "../models/Doctor.hpp"
+#include "../models/TimeSlot.hpp"
 
 class ScheduleManager {
     public:

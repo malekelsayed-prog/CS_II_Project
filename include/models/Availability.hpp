@@ -1,7 +1,7 @@
 #ifndef AVAILABITY_HPP
 #define AVAILABILITY_HPP
 
-#include "TimeSlot.hpp"
+#include "../models/TimeSlot.hpp"
 #include <string>
 #include <vector>
 
