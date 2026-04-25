@@ -7,7 +7,7 @@
 
 class CSVLoader {
     public:
-        std::vector<Doctor> loadDoctor(const std::string& filePath);
+        std::vector<Doctor> loadDoctors(const std::string& filePath);
         std::vector<Availability> loadAvailability(const std::string& filePath);
 };
 

@@ -32,3 +32,6 @@ std::vector<TimeSlot> Availability::generateTimeSlots() const {
     return slots;
 }
 
+std::string Availability::getDoctorID() const {
+    return doctorID;
+}

@@ -1,6 +1,6 @@
 #include "../../include/managers/ScheduleManager.hpp"
 
-std::vector<Doctor> filterByDoctor(const std::vector<Doctor>& doctors, const std::string& name) {
+std::vector<Doctor> ScheduleManager::filterByDoctor(const std::vector<Doctor>& doctors, const std::string& name) {
     std::vector<Doctor> result;
 
     for(const auto& d : doctors) {
@@ -12,7 +12,7 @@ std::vector<Doctor> filterByDoctor(const std::vector<Doctor>& doctors, const std
     return result;
 }
 
-std::vector<Doctor> filterByDepartment(const std::vector<Doctor>& doctors, const std::string& department) {
+std::vector<Doctor> ScheduleManager::filterByDepartment(const std::vector<Doctor>& doctors, const std::string& department) {
     std::vector<Doctor> result;
 
     for(const auto& d : doctors) {
@@ -24,7 +24,7 @@ std::vector<Doctor> filterByDepartment(const std::vector<Doctor>& doctors, const
     return result;
 }
 
-std::vector<TimeSlot> getDoctorSlots(const Doctor& doctor) {
+std::vector<TimeSlot> ScheduleManager::getDoctorSlots(const Doctor& doctor) {
     std::vector<TimeSlot> allSlots;
 
     for (const auto& availability : doctor.getAvailableSlots()) {

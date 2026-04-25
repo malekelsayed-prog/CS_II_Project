@@ -11,7 +11,7 @@ class ScheduleManager {
         std::vector<Doctor> filterByDoctor(const std::vector<Doctor>& doctors, const std::string& name);
         std::vector<Doctor> filterByDepartment(const std::vector<Doctor>& doctors, const std::string& department);
         
-        void getDoctorSlots(const Doctor& doctor);
+        std::vector<TimeSlot> getDoctorSlots(const Doctor& doctor);
 };
 
 #endif

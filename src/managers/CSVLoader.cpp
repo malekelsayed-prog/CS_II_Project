@@ -44,7 +44,7 @@ std::vector<Availability> CSVLoader::loadAvailability(const std::string& filePat
 
 }
 
-std::vector<Doctor> CSVLoader::loadDoctor(const std::string& filePath) {
+std::vector<Doctor> CSVLoader::loadDoctors(const std::string& filePath) {
     std::vector<Doctor> doctors;
     std::ifstream file(filePath);
 
