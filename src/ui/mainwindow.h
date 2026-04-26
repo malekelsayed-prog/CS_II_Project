@@ -3,6 +3,9 @@
 
 #include <QMainWindow>
 
+class SystemController;
+class QCloseEvent;
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -12,7 +15,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(SystemController *controller, QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
@@ -22,6 +25,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    SystemController *controller;
 };
 
 #endif

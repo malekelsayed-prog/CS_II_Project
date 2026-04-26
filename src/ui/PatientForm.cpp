@@ -29,3 +29,23 @@ PatientForm::~PatientForm()
 {
     delete ui;
 }
+
+QString PatientForm::getName() const {
+    return ui->txtName->text();
+}
+
+QString PatientForm::getBirthdate() const {
+    return ui->dateBirth->text();
+}
+
+QString PatientForm::getGender() const {
+    return ui->cmbGender->currentText();
+}
+
+QString PatientForm::getMobile() const {
+    return ui->txtMobile->text();
+}
+
+QString PatientForm::getNationalID() const {
+    return ui->txtNationalId->text();
+}

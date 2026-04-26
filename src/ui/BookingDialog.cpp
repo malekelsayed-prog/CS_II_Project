@@ -29,3 +29,19 @@ BookingDialog::~BookingDialog()
 {
     delete ui;
 }
+
+QString BookingDialog::getPatientID() const {
+    return ui->txtPatientId->text();
+}
+
+QString BookingDialog::getDoctorID() const {
+    return ui->cmbDoctor->currentText();
+}
+
+QString BookingDialog::getDate() const {
+    return ui->dateAppointment->text();
+}
+
+QString BookingDialog::getStartTime() const {
+    return ui->cmbSlot->currentText();
+}

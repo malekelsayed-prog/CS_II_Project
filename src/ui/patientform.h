@@ -15,6 +15,12 @@ public:
     explicit PatientForm(QWidget *parent = nullptr);
     ~PatientForm();
 
+    QString getName() const;
+    QString getBirthdate() const;
+    QString getGender() const;
+    QString getMobile() const;
+    QString getNationalID() const;
+
 private:
     Ui::PatientForm *ui;
 };

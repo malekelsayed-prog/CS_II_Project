@@ -42,18 +42,27 @@ template <> constexpr inline auto SystemController::qt_create_metaobjectdata<qt_
         "scheduleReady",
         "",
         "std::vector<TimeSlot>",
-        "doctorsReady",
-        "std::vector<Doctor>",
-        "doctors",
-        "departmentsReady",
-        "std::vector<std::string>",
-        "departments",
-        "initialize",
+        "errorOccurred",
+        "message",
+        "bookingResult",
+        "success",
         "loadSchedule",
         "filterByDoctor",
         "name",
         "filterByDepartment",
-        "dept"
+        "dept",
+        "addPatient",
+        "birthdate",
+        "gender",
+        "mobileNumber",
+        "nationalID",
+        "bookAppointment",
+        "patientID",
+        "doctorID",
+        "date",
+        "startTime",
+        "getSys",
+        "HospitalSystem"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -61,26 +70,35 @@ template <> constexpr inline auto SystemController::qt_create_metaobjectdata<qt_
         QtMocHelpers::SignalData<void(const std::vector<TimeSlot> &)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
             { 0x80000000 | 3, 2 },
         }}),
-        // Signal 'doctorsReady'
-        QtMocHelpers::SignalData<void(const std::vector<Doctor> &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { 0x80000000 | 5, 6 },
+        // Signal 'errorOccurred'
+        QtMocHelpers::SignalData<void(const QString &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 5 },
         }}),
-        // Signal 'departmentsReady'
-        QtMocHelpers::SignalData<void(const std::vector<std::string> &)>(7, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { 0x80000000 | 8, 9 },
+        // Signal 'bookingResult'
+        QtMocHelpers::SignalData<void(bool)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Bool, 7 },
         }}),
-        // Slot 'initialize'
-        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'loadSchedule'
-        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'filterByDoctor'
-        QtMocHelpers::SlotData<void(const QString &)>(12, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 13 },
+        QtMocHelpers::SlotData<void(const QString &)>(9, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 10 },
         }}),
         // Slot 'filterByDepartment'
-        QtMocHelpers::SlotData<void(const QString &)>(14, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 15 },
+        QtMocHelpers::SlotData<void(const QString &)>(11, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 12 },
         }}),
+        // Slot 'addPatient'
+        QtMocHelpers::SlotData<void(const QString &, const QString &, const QString &, const QString &, const QString &)>(13, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 10 }, { QMetaType::QString, 14 }, { QMetaType::QString, 15 }, { QMetaType::QString, 16 },
+            { QMetaType::QString, 17 },
+        }}),
+        // Slot 'bookAppointment'
+        QtMocHelpers::SlotData<void(const QString &, const QString &, const QString &, const QString &)>(18, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 19 }, { QMetaType::QString, 20 }, { QMetaType::QString, 21 }, { QMetaType::QString, 22 },
+        }}),
+        // Slot 'getSys'
+        QtMocHelpers::SlotData<HospitalSystem()>(23, 2, QMC::AccessPublic, 0x80000000 | 24),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -105,21 +123,24 @@ void SystemController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->scheduleReady((*reinterpret_cast<std::add_pointer_t<std::vector<TimeSlot>>>(_a[1]))); break;
-        case 1: _t->doctorsReady((*reinterpret_cast<std::add_pointer_t<std::vector<Doctor>>>(_a[1]))); break;
-        case 2: _t->departmentsReady((*reinterpret_cast<std::add_pointer_t<std::vector<std::string>>>(_a[1]))); break;
-        case 3: _t->initialize(); break;
-        case 4: _t->loadSchedule(); break;
-        case 5: _t->filterByDoctor((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 6: _t->filterByDepartment((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: _t->errorOccurred((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 2: _t->bookingResult((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 3: _t->loadSchedule(); break;
+        case 4: _t->filterByDoctor((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->filterByDepartment((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 6: _t->addPatient((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[5]))); break;
+        case 7: _t->bookAppointment((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4]))); break;
+        case 8: { HospitalSystem _r = _t->getSys();
+            if (_a[0]) *reinterpret_cast<HospitalSystem*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (SystemController::*)(const std::vector<TimeSlot> & )>(_a, &SystemController::scheduleReady, 0))
             return;
-        if (QtMocHelpers::indexOfMethod<void (SystemController::*)(const std::vector<Doctor> & )>(_a, &SystemController::doctorsReady, 1))
+        if (QtMocHelpers::indexOfMethod<void (SystemController::*)(const QString & )>(_a, &SystemController::errorOccurred, 1))
             return;
-        if (QtMocHelpers::indexOfMethod<void (SystemController::*)(const std::vector<std::string> & )>(_a, &SystemController::departmentsReady, 2))
+        if (QtMocHelpers::indexOfMethod<void (SystemController::*)(bool )>(_a, &SystemController::bookingResult, 2))
             return;
     }
 }
@@ -143,14 +164,14 @@ int SystemController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 9;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 9)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 9;
     }
     return _id;
 }
@@ -162,13 +183,13 @@ void SystemController::scheduleReady(const std::vector<TimeSlot> & _t1)
 }
 
 // SIGNAL 1
-void SystemController::doctorsReady(const std::vector<Doctor> & _t1)
+void SystemController::errorOccurred(const QString & _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }
 
 // SIGNAL 2
-void SystemController::departmentsReady(const std::vector<std::string> & _t1)
+void SystemController::bookingResult(bool _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1);
 }

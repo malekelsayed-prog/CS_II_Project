@@ -15,6 +15,11 @@ public:
     explicit BookingDialog(QWidget *parent = nullptr);
     ~BookingDialog();
 
+    QString getPatientID() const;
+    QString getDoctorID() const;
+    QString getDate() const;
+    QString getStartTime() const;
+
 private:
     Ui::BookingDialog *ui;
 };

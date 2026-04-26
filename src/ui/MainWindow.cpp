@@ -4,10 +4,12 @@
 #include "patientform.h"
 #include "bookingdialog.h"
 #include "scheduleview.h"
+#include "../../include/controller/SystemController.hpp"
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(SystemController *ctrl, QWidget *parent)
     : QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::MainWindow),
+    controller(ctrl)
 {
     ui->setupUi(this);
 
@@ -32,17 +34,36 @@ MainWindow::~MainWindow()
 void MainWindow::openPatientForm()
 {
     PatientForm dialog(this);
-    dialog.exec();
+    if(dialog.exec() == QDialog::Accepted) {
+        controller->addPatient(
+            dialog.getName(),
+            dialog.getBirthdate(),
+            dialog.getGender(),
+            dialog.getMobile(),
+            dialog.getNationalID()
+        );
+    }
 }
 
 void MainWindow::openBookingDialog()
 {
     BookingDialog dialog(this);
-    dialog.exec();
+    if(dialog.exec() == QDialog::Accepted)
+    {
+        controller->bookAppointment(
+            dialog.getPatientID(),
+            dialog.getDoctorID(),
+            dialog.getDate(),
+            dialog.getStartTime()
+        );
+    }
 }
 
 void MainWindow::openScheduleView()
 {
-    ScheduleView dialog(this);
+    ScheduleView dialog(controller, this);
+
+    controller->loadSchedule();
+
     dialog.exec();
 }
