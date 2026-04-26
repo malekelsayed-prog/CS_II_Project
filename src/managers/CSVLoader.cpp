@@ -42,6 +42,7 @@ std::vector<Availability> CSVLoader::loadAvailability(const std::string& filePat
         availability.push_back(avail);
     }
 
+    return availability;
 }
 
 std::vector<Doctor> CSVLoader::loadDoctors(const std::string& filePath) {

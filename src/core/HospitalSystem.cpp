@@ -50,15 +50,35 @@ std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
     for (const auto& doctor : doctors) {
         auto slots = scheduleManager.getDoctorSlots(doctor);
         allSlots.insert(allSlots.end(), slots.begin(), slots.end());
-
     }
+
+    return allSlots;
 }
+
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name)
 {
-    return getAvailableSlots();
+    auto filteredDoctors = scheduleManager.filterByDoctor(doctors, name);
+
+    std::vector<TimeSlot> result;
+
+    for(const auto& d : filteredDoctors) {
+        auto slots = scheduleManager.getDoctorSlots(d);
+        result.insert(result.end(), slots.begin(), slots.end());
+    }
+
+    return result;
 }
 
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept)
 {
-    return getAvailableSlots();
+    auto filteredDoctors = scheduleManager.filterByDepartment(doctors, dept);
+
+    std::vector<TimeSlot> result;
+
+    for (const auto& d : filteredDoctors) {
+        auto slots = scheduleManager.getDoctorSlots(d);
+        result.insert(result.end(), slots.begin(), slots.end());
+    }
+
+    return result;
 }

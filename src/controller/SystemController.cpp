@@ -1,69 +1,58 @@
 #include "SystemController.hpp"
+#include <set>
 
 SystemController::SystemController(QObject *parent)
-    : QObject(parent)
+    : QObject(parent) {}
+
+void SystemController::initialize()
 {
+    system.initializeSystem(
+        "data/doctors.csv",
+        "data/availability.csv",
+        "data/patients.csv",
+        "data/appointments.csv"
+    );
+
+    // Send doctors
+    auto doctors = system.getDoctors();
+    emit doctorsReady(doctors);
+
+    // Extract departments
+    std::set<std::string> deptSet;
+    for (const auto& d : doctors) {
+        deptSet.insert(d.getDepartment());
+    }
+
+    std::vector<std::string> departments(deptSet.begin(), deptSet.end());
+    emit departmentsReady(departments);
+
+    loadSchedule();
 }
 
 void SystemController::loadSchedule()
 {
-    emit scheduleReady(system.getAvailableSlots());
+    auto slots = system.getAvailableSlots(); // should include booked marking
+    emit scheduleReady(slots);
 }
 
-void SystemController::filterByDoctor(const QString &name)
+void SystemController::filterByDoctor(const QString& name)
 {
-    emit scheduleReady(
-        system.getFilteredSlotsByDoctor(name.toStdString())
-        );
+    if (name == "All Doctors") {
+        loadSchedule();
+        return;
+    }
+
+    auto slots = system.getFilteredSlotsByDoctor(name.toStdString());
+    emit scheduleReady(slots);
 }
 
-void SystemController::filterByDepartment(const QString &dept)
+void SystemController::filterByDepartment(const QString& dept)
 {
-    emit scheduleReady(
-        system.getFilteredSlotsByDepartment(dept.toStdString())
-        );
-}
+    if (dept == "All Departments") {
+        loadSchedule();
+        return;
+    }
 
-void SystemController::addPatient(const QString &name,
-                                  const QString &birthdate,
-                                  const QString &gender,
-                                  const QString &mobileNumber,
-                                  const QString &nationalID)
-{
-    Patient p(
-        name.toStdString(),
-        birthdate.toStdString(),
-        gender.toStdString(),
-        mobileNumber.toStdString(),
-        nationalID.toStdString()
-        );
-
-    bool success = system.addPatient(p);
-
-    if (success)
-        emit bookingResult(true);
-    else
-        emit errorOccurred("Could not add patient.");
-}
-
-void SystemController::bookAppointment(const QString &patientID,
-                                       const QString &doctorID,
-                                       const QString &date,
-                                       const QString &startTime)
-{
-    Appointment a(
-        "A001",
-        patientID.toStdString(),
-        doctorID.toStdString(),
-        date.toStdString(),
-        startTime.toStdString(),
-        startTime.toStdString()
-        );
-
-    bool success = system.bookAppointment(a);
-
-    emit bookingResult(success);
-
-    if (!success)
-        emit errorOccurred("Booking failed.");
+    auto slots = system.getFilteredSlotsByDepartment(dept.toStdString());
+    emit scheduleReady(slots);
 }

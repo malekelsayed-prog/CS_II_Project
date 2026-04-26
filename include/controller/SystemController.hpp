@@ -1,11 +1,13 @@
-#ifndef SYSTEMCONTROLLER_HPP
-#define SYSTEMCONTROLLER_HPP
+#ifndef SYSTEMCONTROLLER_H
+#define SYSTEMCONTROLLER_H
 
 #include <QObject>
-#include "../core/HospitalSystem.hpp"
+#include <vector>
+#include "HospitalSystem.hpp"
+#include "TimeSlot.hpp"
+#include "Doctor.hpp"
 
-class SystemController : public QObject
-{
+class SystemController : public QObject {
     Q_OBJECT
 
 private:
@@ -16,24 +18,14 @@ public:
 
 signals:
     void scheduleReady(const std::vector<TimeSlot>& slots);
-    void errorOccurred(const QString& message);
-    void bookingResult(bool success);
+    void doctorsReady(const std::vector<Doctor>& doctors);
+    void departmentsReady(const std::vector<std::string>& departments);
 
 public slots:
+    void initialize();
     void loadSchedule();
     void filterByDoctor(const QString& name);
     void filterByDepartment(const QString& dept);
-
-    void addPatient(const QString& name,
-                    const QString& birthdate,
-                    const QString& gender,
-                    const QString& mobileNumber,
-                    const QString& nationalID);
-
-    void bookAppointment(const QString& patientID,
-                         const QString& doctorID,
-                         const QString& date,
-                         const QString& startTime);
 };
 
 #endif

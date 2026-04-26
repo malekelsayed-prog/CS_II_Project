@@ -1,31 +1,64 @@
 #include "scheduleview.h"
 #include "ui_scheduleview.h"
-#include <QTableWidgetItem>
 
 ScheduleView::ScheduleView(QWidget *parent)
     : QDialog(parent),
-    ui(new Ui::ScheduleView)
+      ui(new Ui::ScheduleView)
 {
     ui->setupUi(this);
 
-    ui->cmbDoctor->addItem("All Doctors");
-    ui->cmbDoctor->addItem("Dr Ahmed");
+    ui->tableSchedule->setColumnCount(7);
+    ui->tableSchedule->setHorizontalHeaderLabels({
+        "Doctor", "ID", "Department", "Date", "Start", "End", "Status"
+    });
 
-    ui->cmbDepartment->addItem("All Departments");
-    ui->cmbDepartment->addItem("Cardiology");
+    // Connect filters
+    connect(ui->cmbDoctor, &QComboBox::currentTextChanged,
+            this, &ScheduleView::doctorFilterChanged);
 
-    ui->tableSchedule->setRowCount(1);
-
-    ui->tableSchedule->setItem(0,0,new QTableWidgetItem("Dr Ahmed"));
-    ui->tableSchedule->setItem(0,1,new QTableWidgetItem("101"));
-    ui->tableSchedule->setItem(0,2,new QTableWidgetItem("Cardiology"));
-    ui->tableSchedule->setItem(0,3,new QTableWidgetItem("26/04/2026"));
-    ui->tableSchedule->setItem(0,4,new QTableWidgetItem("09:00"));
-    ui->tableSchedule->setItem(0,5,new QTableWidgetItem("09:20"));
-    ui->tableSchedule->setItem(0,6,new QTableWidgetItem("Available"));
+    connect(ui->cmbDepartment, &QComboBox::currentTextChanged,
+            this, &ScheduleView::departmentFilterChanged);
 }
 
-ScheduleView::~ScheduleView()
-{
+ScheduleView::~ScheduleView() {
     delete ui;
+}
+
+void ScheduleView::setDoctors(const std::vector<Doctor>& doctors)
+{
+    ui->cmbDoctor->clear();
+    ui->cmbDoctor->addItem("All Doctors");
+
+    for (const auto& d : doctors) {
+        ui->cmbDoctor->addItem(QString::fromStdString(d.getName()));
+    }
+}
+
+void ScheduleView::setDepartments(const std::vector<std::string>& departments)
+{
+    ui->cmbDepartment->clear();
+    ui->cmbDepartment->addItem("All Departments");
+
+    for (const auto& dept : departments) {
+        ui->cmbDepartment->addItem(QString::fromStdString(dept));
+    }
+}
+
+void ScheduleView::updateSchedule(const std::vector<TimeSlot>& slots)
+{
+    ui->tableSchedule->setRowCount(slots.size());
+
+    for (int i = 0; i < slots.size(); ++i) {
+        const TimeSlot& s = slots[i];
+
+        ui->tableSchedule->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(s.getDoctorName())));
+        ui->tableSchedule->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(s.getDoctorID())));
+        ui->tableSchedule->setItem(i, 2, new QTableWidgetItem(QString::fromStdString(s.getDepartment())));
+        ui->tableSchedule->setItem(i, 3, new QTableWidgetItem(QString::fromStdString(s.getDate())));
+        ui->tableSchedule->setItem(i, 4, new QTableWidgetItem(QString::fromStdString(s.getStartTime())));
+        ui->tableSchedule->setItem(i, 5, new QTableWidgetItem(QString::fromStdString(s.getEndTime())));
+
+        QString status = s.getIsBooked() ? "Booked" : "Available";
+        ui->tableSchedule->setItem(i, 6, new QTableWidgetItem(status));
+    }
 }
