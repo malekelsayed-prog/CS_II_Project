@@ -26,9 +26,12 @@ std::vector<Doctor> ScheduleManager::filterByDepartment(const std::vector<Doctor
 
 std::vector<TimeSlot> ScheduleManager::getDoctorSlots(const Doctor& doctor) {
     std::vector<TimeSlot> allSlots;
+    const std::string name = doctor.getName();
+    const std::string Id = doctor.getDoctorID();
+    const std::string department = doctor.getDepartment();
 
     for (const auto& availability : doctor.getAvailableSlots()) {
-        std::vector<TimeSlot> slots = availability.generateTimeSlots();
+        std::vector<TimeSlot> slots = availability.generateTimeSlots(name, Id, department);
 
         allSlots.insert(allSlots.end(), slots.begin(), slots.end());
     }

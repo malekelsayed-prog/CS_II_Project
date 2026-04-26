@@ -14,7 +14,7 @@ class Availability {
 
     public:
         Availability(std::string ID, std::string day, std::string start, std::string end);
-        std::vector<TimeSlot> generateTimeSlots() const;
+        std::vector<TimeSlot> generateTimeSlots(const std::string& doctorName, const std::string& doctorID, const std::string& department) const;
         std::string getDoctorID() const;
 };
 

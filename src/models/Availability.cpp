@@ -19,14 +19,25 @@ static std::string toTime(int minutes) {
     return hh + ":" + mm;
 }
 
-std::vector<TimeSlot> Availability::generateTimeSlots() const {
+std::vector<TimeSlot> Availability::generateTimeSlots(
+    const std::string& doctorName,
+    const std::string& doctorID,
+    const std::string& department) const
+{
     std::vector<TimeSlot> slots;
 
     int start = toMinutes(startTime);
     int end = toMinutes(endTime);
 
     for (int t = start; t + 20 <= end; t += 20) {
-        slots.emplace_back(toTime(t), toTime(t + 20));
+        slots.emplace_back(
+            doctorName,
+            doctorID,
+            department,
+            weekday,                 
+            toTime(t),
+            toTime(t + 20)
+        );
     }
 
     return slots;

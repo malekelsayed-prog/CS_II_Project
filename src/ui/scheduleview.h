@@ -4,6 +4,7 @@
 #include <QDialog>
 
 class SystemController;
+class TimeSlot;
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ScheduleView; }
