@@ -38,29 +38,10 @@ template <> constexpr inline auto ScheduleView::qt_create_metaobjectdata<qt_meta
 {
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
-        "ScheduleView",
-        "doctorFilterChanged",
-        "",
-        "name",
-        "departmentFilterChanged",
-        "dept",
-        "updateSchedule",
-        "std::vector<TimeSlot>"
+        "ScheduleView"
     };
 
     QtMocHelpers::UintData qt_methods {
-        // Signal 'doctorFilterChanged'
-        QtMocHelpers::SignalData<void(const QString &)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 3 },
-        }}),
-        // Signal 'departmentFilterChanged'
-        QtMocHelpers::SignalData<void(const QString &)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 5 },
-        }}),
-        // Slot 'updateSchedule'
-        QtMocHelpers::SlotData<void(const std::vector<TimeSlot> &)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { 0x80000000 | 7, 2 },
-        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -82,20 +63,10 @@ Q_CONSTINIT const QMetaObject ScheduleView::staticMetaObject = { {
 void ScheduleView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<ScheduleView *>(_o);
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        switch (_id) {
-        case 0: _t->doctorFilterChanged((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 1: _t->departmentFilterChanged((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
-        case 2: _t->updateSchedule((*reinterpret_cast<std::add_pointer_t<std::vector<TimeSlot>>>(_a[1]))); break;
-        default: ;
-        }
-    }
-    if (_c == QMetaObject::IndexOfMethod) {
-        if (QtMocHelpers::indexOfMethod<void (ScheduleView::*)(const QString & )>(_a, &ScheduleView::doctorFilterChanged, 0))
-            return;
-        if (QtMocHelpers::indexOfMethod<void (ScheduleView::*)(const QString & )>(_a, &ScheduleView::departmentFilterChanged, 1))
-            return;
-    }
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
 }
 
 const QMetaObject *ScheduleView::metaObject() const
@@ -114,30 +85,6 @@ void *ScheduleView::qt_metacast(const char *_clname)
 int ScheduleView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
-    if (_id < 0)
-        return _id;
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
-            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
-    }
     return _id;
-}
-
-// SIGNAL 0
-void ScheduleView::doctorFilterChanged(const QString & _t1)
-{
-    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
-}
-
-// SIGNAL 1
-void ScheduleView::departmentFilterChanged(const QString & _t1)
-{
-    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }
 QT_WARNING_POP

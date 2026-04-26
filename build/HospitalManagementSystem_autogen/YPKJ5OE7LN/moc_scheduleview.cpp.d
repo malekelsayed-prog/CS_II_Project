@@ -373,7 +373,4 @@ C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSy
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/include/models/Availability.hpp \
-  C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/include/models/Doctor.hpp \
-  C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/include/models/TimeSlot.hpp
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h

@@ -49,6 +49,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/lib/cmake/bin/"
       - "C:/Qt/6.11.0/mingw_64/lib/cmake/sbin/"
@@ -70,6 +71,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/lib/cmake/bin/"
       - "C:/Qt/6.11.0/mingw_64/lib/cmake/sbin/"
@@ -91,6 +93,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/lib/cmake/bin/ninja-build.com"
@@ -273,6 +276,15 @@ events:
       - "C:/Qt/6.11.0/mingw_64/samu.com"
       - "C:/Qt/6.11.0/mingw_64/samu.exe"
       - "C:/Qt/6.11.0/mingw_64/samu"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build"
@@ -462,6 +474,15 @@ events:
       - "C:/Qt/6.11.0/mingw_64/samu.com"
       - "C:/Qt/6.11.0/mingw_64/samu.exe"
       - "C:/Qt/6.11.0/mingw_64/samu"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja-build"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ninja"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/samu"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ninja-build"
@@ -651,6 +672,15 @@ events:
       - "C:/Qt/6.11.0/mingw_64/samu.com"
       - "C:/Qt/6.11.0/mingw_64/samu.exe"
       - "C:/Qt/6.11.0/mingw_64/samu"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja-build.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja-build.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja-build"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/ninja"
+      - "C:/Qt/6.x.x/mingw_64/bin/samu.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/samu.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/samu"
       - "C:/Qt/Tools/Ninja/ninja-build.com"
       - "C:/Qt/Tools/Ninja/ninja-build.exe"
       - "C:/Qt/Tools/Ninja/ninja-build"
@@ -678,6 +708,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -729,6 +760,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -791,6 +823,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -809,6 +842,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -827,6 +861,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/ar.com"
@@ -880,6 +915,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ar.com"
       - "C:/Qt/6.11.0/mingw_64/ar.exe"
       - "C:/Qt/6.11.0/mingw_64/ar"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar"
@@ -934,6 +972,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ar.com"
       - "C:/Qt/6.11.0/mingw_64/ar.exe"
       - "C:/Qt/6.11.0/mingw_64/ar"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ar"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ar"
@@ -961,6 +1002,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -1001,6 +1043,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1019,6 +1062,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1037,6 +1081,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/ranlib.com"
@@ -1090,6 +1135,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/ranlib"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib"
@@ -1144,6 +1192,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/ranlib"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ranlib"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ranlib"
@@ -1171,6 +1222,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -1211,6 +1263,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1229,6 +1282,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1247,6 +1301,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/strip.com"
@@ -1300,6 +1355,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/strip.com"
       - "C:/Qt/6.11.0/mingw_64/strip.exe"
       - "C:/Qt/6.11.0/mingw_64/strip"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip"
@@ -1354,6 +1412,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/strip.com"
       - "C:/Qt/6.11.0/mingw_64/strip.exe"
       - "C:/Qt/6.11.0/mingw_64/strip"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/strip"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/strip"
@@ -1381,6 +1442,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -1421,6 +1483,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1439,6 +1502,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1457,6 +1521,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/ld.com"
@@ -1510,6 +1575,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ld.com"
       - "C:/Qt/6.11.0/mingw_64/ld.exe"
       - "C:/Qt/6.11.0/mingw_64/ld"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld"
@@ -1564,6 +1632,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/ld.com"
       - "C:/Qt/6.11.0/mingw_64/ld.exe"
       - "C:/Qt/6.11.0/mingw_64/ld"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/ld"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/ld"
@@ -1591,6 +1662,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -1631,6 +1703,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1649,6 +1722,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1667,6 +1741,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/nm.com"
@@ -1720,6 +1795,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/nm.com"
       - "C:/Qt/6.11.0/mingw_64/nm.exe"
       - "C:/Qt/6.11.0/mingw_64/nm"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm"
@@ -1774,6 +1852,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/nm.com"
       - "C:/Qt/6.11.0/mingw_64/nm.exe"
       - "C:/Qt/6.11.0/mingw_64/nm"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/nm"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/nm"
@@ -1801,6 +1882,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -1841,6 +1923,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1859,6 +1942,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -1877,6 +1961,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/objdump.com"
@@ -1930,6 +2015,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/objdump.com"
       - "C:/Qt/6.11.0/mingw_64/objdump.exe"
       - "C:/Qt/6.11.0/mingw_64/objdump"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump"
@@ -1984,6 +2072,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/objdump.com"
       - "C:/Qt/6.11.0/mingw_64/objdump.exe"
       - "C:/Qt/6.11.0/mingw_64/objdump"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objdump"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objdump"
@@ -2011,6 +2102,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -2051,6 +2143,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2069,6 +2162,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2087,6 +2181,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/objcopy.com"
@@ -2140,6 +2235,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/objcopy.com"
       - "C:/Qt/6.11.0/mingw_64/objcopy.exe"
       - "C:/Qt/6.11.0/mingw_64/objcopy"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy"
@@ -2194,6 +2292,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/objcopy.com"
       - "C:/Qt/6.11.0/mingw_64/objcopy.exe"
       - "C:/Qt/6.11.0/mingw_64/objcopy"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/objcopy"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/objcopy"
@@ -2221,6 +2322,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -2261,6 +2363,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2279,6 +2382,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2297,6 +2401,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/readelf.com"
@@ -2350,6 +2455,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/readelf.com"
       - "C:/Qt/6.11.0/mingw_64/readelf.exe"
       - "C:/Qt/6.11.0/mingw_64/readelf"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf"
@@ -2404,6 +2512,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/readelf.com"
       - "C:/Qt/6.11.0/mingw_64/readelf.exe"
       - "C:/Qt/6.11.0/mingw_64/readelf"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/readelf"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/readelf"
@@ -2431,6 +2542,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -2471,6 +2583,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2489,6 +2602,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2507,6 +2621,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/dlltool.com"
@@ -2560,6 +2675,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/dlltool.com"
       - "C:/Qt/6.11.0/mingw_64/dlltool.exe"
       - "C:/Qt/6.11.0/mingw_64/dlltool"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool"
@@ -2614,6 +2732,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/dlltool.com"
       - "C:/Qt/6.11.0/mingw_64/dlltool.exe"
       - "C:/Qt/6.11.0/mingw_64/dlltool"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/dlltool"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/dlltool"
@@ -2641,6 +2762,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -2681,6 +2803,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2699,6 +2822,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2717,6 +2841,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/addr2line.com"
@@ -2770,6 +2895,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/addr2line.com"
       - "C:/Qt/6.11.0/mingw_64/addr2line.exe"
       - "C:/Qt/6.11.0/mingw_64/addr2line"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line"
@@ -2824,6 +2952,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/addr2line.com"
       - "C:/Qt/6.11.0/mingw_64/addr2line.exe"
       - "C:/Qt/6.11.0/mingw_64/addr2line"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/addr2line"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/addr2line"
@@ -2851,6 +2982,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -2891,6 +3023,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2909,6 +3042,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -2927,6 +3061,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/tapi.com"
@@ -2980,6 +3115,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/tapi.com"
       - "C:/Qt/6.11.0/mingw_64/tapi.exe"
       - "C:/Qt/6.11.0/mingw_64/tapi"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi"
@@ -3034,6 +3172,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/tapi.com"
       - "C:/Qt/6.11.0/mingw_64/tapi.exe"
       - "C:/Qt/6.11.0/mingw_64/tapi"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/tapi"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/tapi"
@@ -3088,6 +3229,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/tapi.com"
       - "C:/Qt/6.11.0/mingw_64/tapi.exe"
       - "C:/Qt/6.11.0/mingw_64/tapi"
+      - "C:/Qt/6.x.x/mingw_64/bin/tapi.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/tapi.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/tapi"
       - "C:/Qt/Tools/Ninja/tapi.com"
       - "C:/Qt/Tools/Ninja/tapi.exe"
       - "C:/Qt/Tools/Ninja/tapi"
@@ -3114,6 +3258,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -3157,6 +3302,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -3175,6 +3321,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -3193,6 +3340,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/gcc-ar-13.1.com"
@@ -3246,6 +3394,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1"
@@ -3300,6 +3451,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.1"
@@ -3354,6 +3508,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.1"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13.1"
       - "C:/Qt/Tools/Ninja/gcc-ar-13.1.com"
       - "C:/Qt/Tools/Ninja/gcc-ar-13.1.exe"
       - "C:/Qt/Tools/Ninja/gcc-ar-13.1"
@@ -3408,6 +3565,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13"
@@ -3462,6 +3622,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar-13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar-13"
@@ -3516,6 +3679,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar-13"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar-13"
       - "C:/Qt/Tools/Ninja/gcc-ar-13.com"
       - "C:/Qt/Tools/Ninja/gcc-ar-13.exe"
       - "C:/Qt/Tools/Ninja/gcc-ar-13"
@@ -3570,6 +3736,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13"
@@ -3624,6 +3793,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar13"
@@ -3678,6 +3850,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar13"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar13.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar13.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ar13"
       - "C:/Qt/Tools/Ninja/gcc-ar13.com"
       - "C:/Qt/Tools/Ninja/gcc-ar13.exe"
       - "C:/Qt/Tools/Ninja/gcc-ar13"
@@ -3732,6 +3907,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar"
@@ -3786,6 +3964,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ar.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ar"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ar"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ar"
@@ -3813,6 +3994,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -3856,6 +4038,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -3874,6 +4057,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/Tools/mingw1310_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/bin/"
@@ -3892,6 +4076,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
     searched_directories:
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/mingw1310_64/bin/gcc-ranlib-13.1.com"
@@ -3945,6 +4130,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1"
@@ -3999,6 +4187,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.1"
@@ -4053,6 +4244,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.1"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.1"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13.1.com"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13.1.exe"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13.1"
@@ -4107,6 +4301,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13"
@@ -4161,6 +4358,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib-13"
@@ -4215,6 +4415,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib-13"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib-13"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13.com"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13.exe"
       - "C:/Qt/Tools/Ninja/gcc-ranlib-13"
@@ -4269,6 +4472,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13"
@@ -4323,6 +4529,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib13"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib13"
@@ -4377,6 +4586,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib13"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib13.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/gcc-ranlib13"
       - "C:/Qt/Tools/Ninja/gcc-ranlib13.com"
       - "C:/Qt/Tools/Ninja/gcc-ranlib13.exe"
       - "C:/Qt/Tools/Ninja/gcc-ranlib13"
@@ -4431,6 +4643,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib"
@@ -4485,6 +4700,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/gcc-ranlib"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/gcc-ranlib"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/gcc-ranlib"
@@ -4512,6 +4730,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/Qt/6.11.0/mingw_64;C:/Qt/6.11.0/mingw_64"
@@ -4558,6 +4777,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -4591,6 +4811,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -4624,6 +4845,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -4698,6 +4920,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/windres.com"
       - "C:/Qt/6.11.0/mingw_64/windres.exe"
       - "C:/Qt/6.11.0/mingw_64/windres"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres"
@@ -4797,6 +5022,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/windres.com"
       - "C:/Qt/6.11.0/mingw_64/windres.exe"
       - "C:/Qt/6.11.0/mingw_64/windres"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/windres"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/windres"
@@ -4869,6 +5097,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -4887,8 +5116,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ty2ga2"
-      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ty2ga2"
+      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ef7b88"
+      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ef7b88"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g"
@@ -4905,10 +5134,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ty2ga2'
+        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ef7b88'
         
-        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_69960
-        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_0beb5
+        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -4916,8 +5145,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/'
-         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_69960.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\malek\\AppData\\Local\\Temp\\ccXlA9Vc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/'
+         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0beb5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\malek\\AppData\\Local\\Temp\\ccsbRPu4.s
         GNU C++17 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
@@ -4940,13 +5169,13 @@ events:
          C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: b3d236387f35294e2a73c51628039e05
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/'
-         C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\malek\\AppData\\Local\\Temp\\ccXlA9Vc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/'
+         C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\malek\\AppData\\Local\\Temp\\ccsbRPu4.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_69960.exe -Wl,--out-implib,libcmTC_69960.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0beb5.exe -Wl,--out-implib,libcmTC_0beb5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -4957,12 +5186,12 @@ events:
         gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
         COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69960.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_69960.'
-         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\ccFkcSAk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_69960.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_69960.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0beb5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_0beb5.'
+         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\cckdTyLd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_0beb5.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0beb5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\ccFkcSAk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_69960.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_69960.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\cckdTyLd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_0beb5.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0beb5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.39\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69960.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_69960.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0beb5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_0beb5.'\x0d
         
       exitCode: 0
   -
@@ -5001,10 +5230,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ty2ga2']
+        ignore line: [Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-ef7b88']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_69960]
-        ignore line: [[1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_0beb5]
+        ignore line: [[1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -5012,8 +5241,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/']
-        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_69960.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\malek\\AppData\\Local\\Temp\\ccXlA9Vc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/']
+        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0beb5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\malek\\AppData\\Local\\Temp\\ccsbRPu4.s]
         ignore line: [GNU C++17 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
         ignore line: []
@@ -5036,8 +5265,8 @@ events:
         ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b3d236387f35294e2a73c51628039e05]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/']
-        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\malek\\AppData\\Local\\Temp\\ccXlA9Vc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/']
+        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\malek\\AppData\\Local\\Temp\\ccsbRPu4.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
@@ -5048,8 +5277,8 @@ events:
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_69960.exe -Wl --out-implib libcmTC_69960.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_0beb5.exe -Wl --out-implib libcmTC_0beb5.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -5067,13 +5296,13 @@ events:
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_69960.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_69960.']
-        link line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\ccFkcSAk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_69960.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_69960.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0beb5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_0beb5.']
+        link line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\cckdTyLd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_0beb5.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_0beb5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\ccFkcSAk.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\malek\\AppData\\Local\\Temp\\cckdTyLd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -5099,7 +5328,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_69960.exe] ==> ignore
+          arg [cmTC_0beb5.exe] ==> ignore
           arg [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -5109,9 +5338,9 @@ events:
           arg [-LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_69960.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_0beb5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_69960.dll.a] ==> ignore
+          arg [libcmTC_0beb5.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -5202,8 +5431,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-zjj0po"
-      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-zjj0po"
+      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-iurlmp"
+      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-iurlmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g"
@@ -5219,11 +5448,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-zjj0po'
+        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-iurlmp'
         
-        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_77dcb
-        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_77dcb.dir/src.cxx.obj -c C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-zjj0po/src.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   CMakeFiles/cmTC_77dcb.dir/src.cxx.obj -o cmTC_77dcb.exe -Wl,--out-implib,libcmTC_77dcb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_fc2e7
+        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_fc2e7.dir/src.cxx.obj -c C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-iurlmp/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   CMakeFiles/cmTC_fc2e7.dir/src.cxx.obj -o cmTC_fc2e7.exe -Wl,--out-implib,libcmTC_fc2e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -5242,8 +5471,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-kg9cnz"
-      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-kg9cnz"
+      source: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-duor61"
+      binary: "C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-duor61"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g"
@@ -5259,11 +5488,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-kg9cnz'
+        Change Dir: 'C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-duor61'
         
-        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_fae4f
-        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=c++17 -o CMakeFiles/cmTC_fae4f.dir/src.cxx.obj -c C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-kg9cnz/src.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   CMakeFiles/cmTC_fae4f.dir/src.cxx.obj -o cmTC_fae4f.exe -Wl,--out-implib,libcmTC_fae4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_efdac
+        [1/2] C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=c++17 -o CMakeFiles/cmTC_efdac.dir/src.cxx.obj -c C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/CMakeScratch/TryCompile-duor61/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe   CMakeFiles/cmTC_efdac.dir/src.cxx.obj -o cmTC_efdac.exe -Wl,--out-implib,libcmTC_efdac.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -5350,6 +5579,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -5445,6 +5675,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -5496,6 +5727,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -5529,6 +5761,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -5562,6 +5795,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -5609,6 +5843,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -5712,6 +5947,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -5764,6 +6000,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/include/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -5792,6 +6029,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/include/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -5820,6 +6058,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/include/"
       - "C:/Program Files/"
@@ -5849,6 +6088,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/vulkan/vulkan.h"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Program Files/include/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Program Files/vulkan/vulkan.h"
@@ -5877,6 +6117,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/vulkan/vulkan.h"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Program Files/include/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/Program Files/vulkan/vulkan.h"
@@ -5905,6 +6146,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
       - "C:/msys64/ucrt64/bin/vulkan/vulkan.h"
       - "C:/Qt/6.11.0/mingw_64/vulkan/vulkan.h"
+      - "C:/Qt/6.x.x/mingw_64/bin/vulkan/vulkan.h"
       - "C:/Qt/Tools/Ninja/vulkan/vulkan.h"
       - "C:/Program Files/include/vulkan/vulkan.h"
       - "C:/Program Files/vulkan/vulkan.h"
@@ -5937,6 +6179,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -5989,6 +6232,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/lib/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -6019,6 +6263,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/lib/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -6049,6 +6294,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
@@ -6080,6 +6326,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/lib/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -6110,6 +6357,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/lib/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/"
@@ -6140,6 +6388,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
@@ -6174,6 +6423,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -6231,6 +6481,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -6264,6 +6515,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -6297,6 +6549,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -6371,6 +6624,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslc.com"
       - "C:/Qt/6.11.0/mingw_64/glslc.exe"
       - "C:/Qt/6.11.0/mingw_64/glslc"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc"
@@ -6470,6 +6726,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslc.com"
       - "C:/Qt/6.11.0/mingw_64/glslc.exe"
       - "C:/Qt/6.11.0/mingw_64/glslc"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslc"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslc"
@@ -6569,6 +6828,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslc.com"
       - "C:/Qt/6.11.0/mingw_64/glslc.exe"
       - "C:/Qt/6.11.0/mingw_64/glslc"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslc.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslc.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslc"
       - "C:/Qt/Tools/Ninja/glslc.com"
       - "C:/Qt/Tools/Ninja/glslc.exe"
       - "C:/Qt/Tools/Ninja/glslc"
@@ -6631,6 +6893,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -6684,6 +6947,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -6717,6 +6981,7 @@ events:
       - "C:/Qt/6.11.0/mingw_64/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Qt/6.11.0/mingw_64/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/bin/"
       - "C:/Qt/6.11.0/mingw_64/Program Files/sbin/"
@@ -6750,6 +7015,7 @@ events:
       - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Qt/6.11.0/mingw_64/"
+      - "C:/Qt/6.x.x/mingw_64/bin/"
       - "C:/Qt/Tools/Ninja/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -6824,6 +7090,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.com"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.exe"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator"
@@ -6923,6 +7192,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.com"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.exe"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator.com"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.11.0/mingw_64/Qt/6.x.x/mingw_64/bin/glslangValidator"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator.com"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator.exe"
       - "C:/Qt/6.11.0/mingw_64/Qt/Tools/Ninja/glslangValidator"
@@ -7022,6 +7294,9 @@ events:
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.com"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator.exe"
       - "C:/Qt/6.11.0/mingw_64/glslangValidator"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslangValidator.com"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.x.x/mingw_64/bin/glslangValidator"
       - "C:/Qt/Tools/Ninja/glslangValidator.com"
       - "C:/Qt/Tools/Ninja/glslangValidator.exe"
       - "C:/Qt/Tools/Ninja/glslangValidator"
@@ -7084,6 +7359,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -7177,6 +7453,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -7280,6 +7557,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -7373,6 +7651,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -7476,6 +7755,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
@@ -9277,6 +9557,7 @@ events:
         - "C:/Users/malek/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:/Qt/6.11.0/mingw_64"
+        - "C:\\Qt\\6.x.x\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\Ninja"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HospitalManagementSystem"
