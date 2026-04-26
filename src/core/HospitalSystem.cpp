@@ -53,3 +53,12 @@ std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
 
     }
 }
+std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name)
+{
+    return getAvailableSlots();
+}
+
+std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept)
+{
+    return getAvailableSlots();
+}
