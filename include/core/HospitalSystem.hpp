@@ -1,47 +1,32 @@
-#ifndef HOSPITAL_SYSTEM_HPP
-#define HOSPITAL_SYSTEM_HPP
+#ifndef HOSPITALSYSTEM_H
+#define HOSPITALSYSTEM_H
 
 #include <vector>
-
-#include "../models/Patient.hpp"
-#include "../models/Doctor.hpp"
-
-#include "../core/AppointmentManager.hpp"
-#include "../managers/DataManager.hpp"
-#include "../managers/CSVLoader.hpp"
-#include "../managers/ScheduleManager.hpp"
-
+#include <string>
+#include "Doctor.hpp"
+#include "Availability.hpp"
+#include "Appointment.hpp"
+#include "TimeSlot.hpp"
+#include "CSVLoader.hpp"
 
 class HospitalSystem {
-    private:
-        std::vector<Patient> patients;
-        std::vector<Doctor> doctors;
-        std::vector<Appointment> appointments;
-        
-        AppointmentManager appointmentManager;
-        DataManager dataManager;
-        CSVLoader csvLoader;
-        ScheduleManager scheduleManager;
+private:
+    std::vector<Doctor> doctors;
+    std::vector<Availability> availabilities;
+    std::vector<Appointment> appointments;
 
-    public:
-        void initializeSystem(const std::string& doctorsFile,
-                              const std::string& availabilitFile,
-                              const std::string& patientsFile,
-                              const std::string& appointmentsFile);
+public:
+    void initializeSystem(const std::string& doctorsFile,
+                          const std::string& availabilityFile,
+                          const std::string& patientsFile,
+                          const std::string& appointmentsFile);
 
-        bool addPatient(const Patient& p);
-        std::vector<Patient> getPatients() const;
-        
-        bool bookAppointment(const Appointment& a);
-        std::vector<Appointment> getAppointments() const;
+    std::vector<Doctor> getDoctors() const;
 
-        std::vector<TimeSlot> getAvailableSlots();
-        std::vector<TimeSlot> getFilteredSlotsByDoctor(const std::string& name);
-        std::vector<TimeSlot> getFilteredSlotsByDepartment(const std::string& dept);
+    std::vector<TimeSlot> getAvailableSlots();
 
-        void saveData(const std::string& patientsFile,
-                      const std::string& doctorsFile);
-
+    std::vector<TimeSlot> getFilteredSlotsByDoctor(const std::string& name);
+    std::vector<TimeSlot> getFilteredSlotsByDepartment(const std::string& dept);
 };
 
 #endif

@@ -1,0 +1,5 @@
+C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem.dir
+C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/edit_cache.dir
+C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/rebuild_cache.dir
+C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir
+C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen.dir

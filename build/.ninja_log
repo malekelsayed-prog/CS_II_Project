@@ -1,0 +1,27 @@
+# ninja log v6
+11	3891	7989198979775634	HospitalManagementSystem_autogen/timestamp	89e13f4731e4b445
+11	3891	7989198979775634	HospitalManagementSystem_autogen/mocs_compilation.cpp	89e13f4731e4b445
+11	3891	7989198979775634	C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSystem_autogen/timestamp	89e13f4731e4b445
+11	3891	7989198979775634	C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSystem_autogen/mocs_compilation.cpp	89e13f4731e4b445
+3907	4643	7989198980430801	CMakeFiles/HospitalManagementSystem.dir/src/models/Patient.cpp.obj	c80fa0382e5bd55f
+3925	4669	7989198980616437	CMakeFiles/HospitalManagementSystem.dir/src/models/TimeSlot.cpp.obj	d3c3b897afcb3027
+3917	4702	7989198980523771	CMakeFiles/HospitalManagementSystem.dir/src/models/Appointment.cpp.obj	d92538c48305c52b
+3944	4753	7989198980787872	CMakeFiles/HospitalManagementSystem.dir/src/core/AppointmentManager.cpp.obj	204c128d775916af
+3912	4797	7989198980481131	CMakeFiles/HospitalManagementSystem.dir/src/models/Doctor.cpp.obj	bf8fc4fd8a76a8db
+3940	5200	7989198980747717	CMakeFiles/HospitalManagementSystem.dir/src/core/HospitalSystem.cpp.obj	4f61e17bb54264f7
+4643	5674	7989198987798272	CMakeFiles/HospitalManagementSystem.dir/src/managers/DataManager.cpp.obj	da97dc9e31a48097
+3981	5689	7989198981167539	CMakeFiles/HospitalManagementSystem.dir/src/managers/CSVLoader.cpp.obj	675d1c4a5ea7b183
+3903	7078	7989198980390775	CMakeFiles/HospitalManagementSystem.dir/src/main.cpp.obj	6e3603959d048fb5
+3899	7587	7989198980350779	CMakeFiles/HospitalManagementSystem.dir/HospitalManagementSystem_autogen/mocs_compilation.cpp.obj	92104d3acb882c8a
+35	1891	7989200343602768	HospitalManagementSystem_autogen/timestamp	89e13f4731e4b445
+35	1891	7989200343602768	HospitalManagementSystem_autogen/mocs_compilation.cpp	89e13f4731e4b445
+35	1891	7989200343602768	C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSystem_autogen/timestamp	89e13f4731e4b445
+35	1891	7989200343602768	C:/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSystem_autogen/mocs_compilation.cpp	89e13f4731e4b445
+1905	2804	7989200344229192	CMakeFiles/HospitalManagementSystem.dir/src/models/TimeSlot.cpp.obj	d3c3b897afcb3027
+1896	2964	7989200344139214	CMakeFiles/HospitalManagementSystem.dir/src/models/Doctor.cpp.obj	bf8fc4fd8a76a8db
+1909	3109	7989200344264261	CMakeFiles/HospitalManagementSystem.dir/src/core/HospitalSystem.cpp.obj	4f61e17bb54264f7
+1915	3133	7989200344325877	CMakeFiles/HospitalManagementSystem.dir/src/managers/CSVLoader.cpp.obj	675d1c4a5ea7b183
+1919	3183	7989200344372901	CMakeFiles/HospitalManagementSystem.dir/src/managers/ScheduleManager.cpp.obj	72d5004fcfd473c6
+1929	6533	7989200344462926	CMakeFiles/HospitalManagementSystem.dir/src/ui/mainwindow.cpp.obj	5bedffd6e1a870bc
+1892	6824	7989200344099120	CMakeFiles/HospitalManagementSystem.dir/HospitalManagementSystem_autogen/mocs_compilation.cpp.obj	92104d3acb882c8a
+1933	7126	7989200344503066	CMakeFiles/HospitalManagementSystem.dir/src/ui/patientform.cpp.obj	e037aacc6c49fdf4

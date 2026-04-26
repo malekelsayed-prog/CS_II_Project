@@ -1,6 +1,5 @@
 #include "../../include/models/TimeSlot.hpp"
 
-// Constructor
 TimeSlot::TimeSlot(const std::string& doctorName,
                    const std::string& doctorID,
                    const std::string& department,
@@ -17,7 +16,6 @@ TimeSlot::TimeSlot(const std::string& doctorName,
 {
 }
 
-// Getters
 std::string TimeSlot::getDoctorName() const {
     return doctorName;
 }
@@ -46,12 +44,10 @@ bool TimeSlot::getIsBooked() const {
     return isBooked;
 }
 
-// Setter
 void TimeSlot::setBooked(bool status) {
     isBooked = status;
 }
 
-// 🔥 Match function (VERY IMPORTANT)
 bool TimeSlot::matchesAppointment(const std::string& doctorID,
                                   const std::string& date,
                                   const std::string& startTime) const

@@ -1,84 +1,82 @@
-#include "../../include/core/HospitalSystem.hpp"
+#include "HospitalSystem.hpp"
+
 
 void HospitalSystem::initializeSystem(const std::string& doctorsFile,
+                                      const std::string& availabilityFile,
                                       const std::string& patientsFile,
-                                      const std::string& appointmentsFile,
-                                      const std::string& availabilityFile) {
-    
-    doctors = csvLoader.loadDoctors(doctorsFile);
-    auto availabilityList = csvLoader.loadAvailability(availabilityFile);
+                                      const std::string& appointmentsFile)
+{
+    doctors = DataManager::loadDoctors(doctorsFile);
+    availabilities = CSVLoader::loadAvailability(availabilityFile);
+    appointments = CSVLoader::loadAppointments(appointmentsFile);
 
-    for(auto& doctor : doctors) {
-        for(const auto& avail : availabilityList) {
-            if(avail.getDoctorID() == doctor.getDoctorID())
+  
+    for (auto& doctor : doctors) {
+        for (const auto& avail : availabilities) {
+            if (avail.getDoctorID() == doctor.getDoctorID()) {
                 doctor.addAvailability(avail);
+            }
         }
     }
-
-    patients = dataManager.loadPatients(patientsFile);
-    appointments = dataManager.loadAppointments(appointmentsFile);
 }
 
-bool HospitalSystem::addPatient(const Patient& p) {
-    for(const auto& patient : patients) {
-        if (patient.getNationalID() == p.getNationalID()) return false;
-    }
 
-    patients.push_back(p);
-    return true;    
+std::vector<Doctor> HospitalSystem::getDoctors() const {
+    return doctors;
 }
 
-std::vector<Patient> HospitalSystem::getPatients() const {
-    return patients;
-}
 
-bool HospitalSystem::bookAppointment(const Appointment& a) {
-    if(!appointmentManager.validateAppointment(a, appointments)) 
-        return false;
-
-    appointments.push_back(a);
-    return true;
-}
-
-std::vector<Appointment> HospitalSystem::getAppointments() const {
-    return appointments;
-}
-
-std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
+std::vector<TimeSlot> HospitalSystem::getAvailableSlots()
+{
     std::vector<TimeSlot> allSlots;
 
     for (const auto& doctor : doctors) {
-        auto slots = scheduleManager.getDoctorSlots(doctor);
-        allSlots.insert(allSlots.end(), slots.begin(), slots.end());
+        auto doctorSlots = doctor.generateTimeSlots(); 
+
+        for (auto& slot : doctorSlots) {
+            for (const auto& appt : appointments) {
+                if (slot.matchesAppointment(
+                        appt.getDoctorID(),
+                        appt.getDate(),
+                        appt.getStartTime())) {
+                    
+                    slot.setBooked(true);
+                }
+            }
+        }
+
+        allSlots.insert(allSlots.end(), doctorSlots.begin(), doctorSlots.end());
     }
 
     return allSlots;
 }
 
+
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name)
 {
-    auto filteredDoctors = scheduleManager.filterByDoctor(doctors, name);
+    auto slots = getAvailableSlots();
+    std::vector<TimeSlot> filtered;
 
-    std::vector<TimeSlot> result;
-
-    for(const auto& d : filteredDoctors) {
-        auto slots = scheduleManager.getDoctorSlots(d);
-        result.insert(result.end(), slots.begin(), slots.end());
+    for (const auto& s : slots) {
+        if (s.getDoctorName() == name) {
+            filtered.push_back(s);
+        }
     }
 
-    return result;
+    return filtered;
 }
+
 
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept)
 {
-    auto filteredDoctors = scheduleManager.filterByDepartment(doctors, dept);
+    auto slots = getAvailableSlots();
+    std::vector<TimeSlot> filtered;
 
-    std::vector<TimeSlot> result;
-
-    for (const auto& d : filteredDoctors) {
-        auto slots = scheduleManager.getDoctorSlots(d);
-        result.insert(result.end(), slots.begin(), slots.end());
+    for (const auto& s : slots) {
+        if (s.getDepartment() == dept) {
+            filtered.push_back(s);
+        }
     }
 
-    return result;
+    return filtered;
 }

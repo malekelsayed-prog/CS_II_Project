@@ -21,7 +21,6 @@ public:
              const std::string& startTime,
              const std::string& endTime);
 
-    // Getters
     std::string getDoctorName() const;
     std::string getDoctorID() const;
     std::string getDepartment() const;
@@ -30,10 +29,8 @@ public:
     std::string getEndTime() const;
     bool getIsBooked() const;
 
-    // Setter
     void setBooked(bool status);
 
-    // Matching function
     bool matchesAppointment(const std::string& doctorID,
                             const std::string& date,
                             const std::string& startTime) const;

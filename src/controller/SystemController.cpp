@@ -13,11 +13,9 @@ void SystemController::initialize()
         "data/appointments.csv"
     );
 
-    // Send doctors
     auto doctors = system.getDoctors();
     emit doctorsReady(doctors);
-
-    // Extract departments
+    
     std::set<std::string> deptSet;
     for (const auto& d : doctors) {
         deptSet.insert(d.getDepartment());
@@ -31,7 +29,7 @@ void SystemController::initialize()
 
 void SystemController::loadSchedule()
 {
-    auto slots = system.getAvailableSlots(); // should include booked marking
+    auto slots = system.getAvailableSlots();
     emit scheduleReady(slots);
 }
 
