@@ -1,4 +1,4 @@
-#include "SystemController.hpp"
+#include "../../include/controller/SystemController.hpp"
 #include <QTime>
 
 SystemController::SystemController(QObject *parent)
