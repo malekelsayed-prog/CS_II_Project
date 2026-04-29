@@ -70,10 +70,10 @@ set(HEADERS
 qt_add_executable(HospitalManagementSystem
     ${SOURCES}
     ${HEADERS}
-    src/ui/mainwindow.h src/ui/mainwindow.cpp src/ui/mainwindow.ui
-    src/ui/patientform.h src/ui/patientform.cpp src/ui/patientform.ui
-    src/ui/bookingdialog.h src/ui/bookingdialog.cpp src/ui/bookingdialog.ui
-    src/ui/scheduleview.h src/ui/scheduleview.cpp src/ui/scheduleview.ui
+    src/ui/mainwindow.h src/ui/MainWindow.cpp src/ui/mainwindow.ui
+    src/ui/patientform.h src/ui/PatientForm.cpp src/ui/patientform.ui
+    src/ui/bookingdialog.h src/ui/BookingDialog.cpp src/ui/bookingdialog.ui
+    src/ui/scheduleview.h src/ui/ScheduleView.cpp src/ui/scheduleview.ui
 )
 
 target_link_libraries(HospitalManagementSystem PRIVATE
