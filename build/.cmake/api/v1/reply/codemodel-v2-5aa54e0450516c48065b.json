@@ -111,6 +111,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Qt6::QICNSPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QICNSPlugin-Debug-edf245a70c6d89928e16.json",
+					"name" : "Qt6::QICNSPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Qt6::QICOPlugin::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Qt6__QICOPlugin-Debug-d4d24dda6b83f9c702c9.json",
 					"name" : "Qt6::QICOPlugin",
@@ -160,9 +167,44 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Qt6::QTgaPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QTgaPlugin-Debug-b1281e3af4be5cb1d727.json",
+					"name" : "Qt6::QTgaPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt6::QTiffPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QTiffPlugin-Debug-91ab3dd9ebf5f6b2044f.json",
+					"name" : "Qt6::QTiffPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Qt6::QTuioTouchPlugin::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Qt6__QTuioTouchPlugin-Debug-5513092e7cd317b1919d.json",
 					"name" : "Qt6::QTuioTouchPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt6::QVirtualKeyboardPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QVirtualKeyboardPlugin-Debug-699428b47fa7c7588796.json",
+					"name" : "Qt6::QVirtualKeyboardPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt6::QWbmpPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QWbmpPlugin-Debug-8e283ef82aff3ec1cdc7.json",
+					"name" : "Qt6::QWbmpPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt6::QWebpPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt6__QWebpPlugin-Debug-afa6b8b7265685b44aba.json",
+					"name" : "Qt6::QWebpPlugin",
 					"projectIndex" : 0
 				},
 				{
@@ -481,7 +523,13 @@
 						55,
 						56,
 						57,
-						58
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64
 					],
 					"build" : ".",
 					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
@@ -563,7 +611,13 @@
 						55,
 						56,
 						57,
-						58
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64
 					],
 					"directoryIndexes" : 
 					[
@@ -583,21 +637,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "HospitalManagementSystem::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HospitalManagementSystem-Debug-d7d93874788eacf7c212.json",
+					"jsonFile" : "target-HospitalManagementSystem-Debug-8f044d3b3f100044456c.json",
 					"name" : "HospitalManagementSystem",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "HospitalManagementSystem_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HospitalManagementSystem_autogen-Debug-66aaf3dda5357011140c.json",
+					"jsonFile" : "target-HospitalManagementSystem_autogen-Debug-1cfc3f07add8fb62d607.json",
 					"name" : "HospitalManagementSystem_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "HospitalManagementSystem_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HospitalManagementSystem_autogen_timestamp_deps-Debug-361da6b2bf9754867951.json",
+					"jsonFile" : "target-HospitalManagementSystem_autogen_timestamp_deps-Debug-307130315c60ca29b3e0.json",
 					"name" : "HospitalManagementSystem_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
