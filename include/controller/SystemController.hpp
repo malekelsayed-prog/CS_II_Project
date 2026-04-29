@@ -35,7 +35,7 @@ public slots:
                          const QString& date,
                          const QString& startTime);
 
-    HospitalSystem getSys() { return system; }
+    HospitalSystem& getSys() { return system; }
 };
 
 #endif

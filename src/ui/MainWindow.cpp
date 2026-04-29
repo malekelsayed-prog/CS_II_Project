@@ -6,6 +6,11 @@
 #include "scheduleview.h"
 #include "../../include/controller/SystemController.hpp"
 
+#include <QString>
+#include <vector>
+#include <utility>
+
+
 MainWindow::MainWindow(SystemController *ctrl, QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow),
@@ -48,15 +53,31 @@ void MainWindow::openPatientForm()
 void MainWindow::openBookingDialog()
 {
     BookingDialog dialog(this);
-    if(dialog.exec() == QDialog::Accepted)
+
+    std::vector<std::pair<QString, QString>> doctors;
+
+    for (const auto& doc : controller->getSys().getDoctors())
     {
-        controller->bookAppointment(
-            dialog.getPatientID(),
-            dialog.getDoctorID(),
-            dialog.getDate(),
-            dialog.getStartTime()
-        );
+        doctors.push_back({
+            QString::fromStdString(doc.getName()),
+            QString::fromStdString(doc.getDoctorID())
+        });
     }
+
+    dialog.setDoctors(doctors);
+
+    std::vector<QString> slots;
+
+    for (const auto& slot : controller->getSys().getAvailableSlots())
+    {
+        if (!slot.getIsBooked()) {
+            slots.push_back(QString::fromStdString(slot.getStartTime()));
+        }
+    }
+
+    dialog.setSlots(slots);
+
+    dialog.exec();
 }
 
 void MainWindow::openScheduleView()
@@ -67,3 +88,4 @@ void MainWindow::openScheduleView()
 
     dialog.exec();
 }
+

@@ -2,6 +2,7 @@
 #define BOOKINGDIALOG_H
 
 #include <QDialog>
+#include <vector>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class BookingDialog; }
@@ -19,6 +20,9 @@ public:
     QString getDoctorID() const;
     QString getDate() const;
     QString getStartTime() const;
+
+    void setDoctors(const std::vector<std::pair<QString, QString>>& doctors);
+    void setSlots(const std::vector<QString>& slots);
 
 private:
     Ui::BookingDialog *ui;

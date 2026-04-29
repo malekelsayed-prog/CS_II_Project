@@ -61,8 +61,7 @@ template <> constexpr inline auto SystemController::qt_create_metaobjectdata<qt_
         "doctorID",
         "date",
         "startTime",
-        "getSys",
-        "HospitalSystem"
+        "getSys"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -98,7 +97,7 @@ template <> constexpr inline auto SystemController::qt_create_metaobjectdata<qt_
             { QMetaType::QString, 19 }, { QMetaType::QString, 20 }, { QMetaType::QString, 21 }, { QMetaType::QString, 22 },
         }}),
         // Slot 'getSys'
-        QtMocHelpers::SlotData<HospitalSystem()>(23, 2, QMC::AccessPublic, 0x80000000 | 24),
+        QtMocHelpers::SlotData<void()>(23, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -130,8 +129,7 @@ void SystemController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 5: _t->filterByDepartment((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 6: _t->addPatient((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[5]))); break;
         case 7: _t->bookAppointment((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4]))); break;
-        case 8: { HospitalSystem _r = _t->getSys();
-            if (_a[0]) *reinterpret_cast<HospitalSystem*>(_a[0]) = std::move(_r); }  break;
+        case 8: _t->getSys(); break;
         default: ;
         }
     }

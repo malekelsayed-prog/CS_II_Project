@@ -57,15 +57,39 @@ std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
 
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name)
 {
-    return getAvailableSlots();
+    std::vector<TimeSlot> filtered;
+
+    for (const auto& slot : getAvailableSlots())
+    {
+        if (slot.getDoctorName() == name)
+        {
+            filtered.push_back(slot);
+        }
+    }
+
+    return filtered;
 }
 
 std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept)
 {
-    return getAvailableSlots();
+    std::vector<TimeSlot> filtered;
+
+    for (const auto& slot : getAvailableSlots())
+    {
+        if (slot.getDepartment() == dept)
+        {
+            filtered.push_back(slot);
+        }
+    }
+
+    return filtered;
 }
 
 void HospitalSystem::saveData(const std::string& patientsFile, const std::string& appointmentsFile) {
     dataManager.savePatients(patients, patientsFile);
     dataManager.saveAppointments(appointments, appointmentsFile);
+}
+
+std::vector<Doctor> HospitalSystem::getDoctors() {
+    return doctors;
 }

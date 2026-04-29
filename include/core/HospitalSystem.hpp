@@ -42,6 +42,8 @@ class HospitalSystem {
         void saveData(const std::string& patientsFile,
                       const std::string& appointmentsFile);
 
+        std::vector<Doctor> getDoctors();
+
 };
 
 #endif
