@@ -30,10 +30,10 @@ class HospitalSystem {
                               const std::string& appointmentsFile);
 
         bool addPatient(const Patient& p);
-        std::vector<Patient> getPatients() const;
+        std::vector<Patient> getPatients();
         
         bool bookAppointment(const Appointment& a);
-        std::vector<Appointment> getAppointments() const;
+        std::vector<Appointment> getAppointments();
 
         std::vector<TimeSlot> getAvailableSlots();
         std::vector<TimeSlot> getFilteredSlotsByDoctor(const std::string& name);

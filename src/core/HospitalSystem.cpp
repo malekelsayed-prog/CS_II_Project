@@ -44,7 +44,7 @@ std::vector<Appointment> HospitalSystem::getAppointments() const {
     return appointments;
 }
 
-std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
+std::vector<TimeSlot> HospitalSystem::getAvailableSlots() const {
     std::vector<TimeSlot> allSlots;
 
     for (const auto& doctor : doctors) {
@@ -55,7 +55,7 @@ std::vector<TimeSlot> HospitalSystem::getAvailableSlots() {
     return allSlots;
 }
 
-std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name)
+std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string& name) const
 {
     std::vector<TimeSlot> filtered;
 
@@ -70,7 +70,7 @@ std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDoctor(const std::string
     return filtered;
 }
 
-std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept)
+std::vector<TimeSlot> HospitalSystem::getFilteredSlotsByDepartment(const std::string& dept) const
 {
     std::vector<TimeSlot> filtered;
 
@@ -90,6 +90,6 @@ void HospitalSystem::saveData(const std::string& patientsFile, const std::string
     dataManager.saveAppointments(appointments, appointmentsFile);
 }
 
-std::vector<Doctor> HospitalSystem::getDoctors() {
+std::vector<Doctor> HospitalSystem::getDoctors() const {
     return doctors;
 }

@@ -66,7 +66,9 @@ void MainWindow::openBookingDialog()
 
     dialog.setDoctors(doctors);
 
-    std::vector<QString> slots;
+    std::vector<TimeSlot> times = controller->getSys().getAvailableSlots();
+
+    const std::vector<QString>& slots;
 
     for (const auto& slot : controller->getSys().getAvailableSlots())
     {
