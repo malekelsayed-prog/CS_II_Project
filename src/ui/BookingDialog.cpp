@@ -28,11 +28,11 @@ void BookingDialog::setDoctors(const std::vector<std::pair<QString, QString>>& d
     }
 }
 
-void BookingDialog::setSlots(const std::vector<QString>& slots)
+void BookingDialog::setSlots(const std::vector<QString>& times)
 {
     ui->cmbSlot->clear();
 
-    for (const auto& slot : slots)
+    for (const auto& slot : times)
     {
         ui->cmbSlot->addItem(slot);
     }
