@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project
+CMAKE_SOURCE_DIR = "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build"
 
 # Utility rule file for HospitalManagementSystem_autogen_timestamp_deps.
 
@@ -66,10 +66,10 @@ include CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/compiler_
 # Include the progress variables for this target.
 include CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.11.0/mingw_64/bin/moc.exe
-CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll
-CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.11.0/mingw_64/bin/Qt6Widgets.dll
-CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.11.0/mingw_64/bin/uic.exe
+CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.10.2/mingw_64/bin/Qt6Gui.dll
+CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.10.2/mingw_64/bin/Qt6Widgets.dll
+CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.10.2/mingw_64/bin/moc.exe
+CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps: /mnt/c/Qt/6.10.2/mingw_64/bin/uic.exe
 
 HospitalManagementSystem_autogen_timestamp_deps: CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps
 HospitalManagementSystem_autogen_timestamp_deps: CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/depend:
-	cd /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/HospitalManagementSystem_autogen_timestamp_deps.dir/depend
 

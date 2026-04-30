@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project
+CMAKE_SOURCE_DIR = "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build"
 
 # Utility rule file for HospitalManagementSystem_autogen.
 
@@ -68,12 +68,12 @@ include CMakeFiles/HospitalManagementSystem_autogen.dir/progress.make
 
 CMakeFiles/HospitalManagementSystem_autogen: HospitalManagementSystem_autogen/timestamp
 
-HospitalManagementSystem_autogen/timestamp: /mnt/c/Qt/6.11.0/mingw_64/bin/moc.exe
-HospitalManagementSystem_autogen/timestamp: /mnt/c/Qt/6.11.0/mingw_64/bin/uic.exe
+HospitalManagementSystem_autogen/timestamp: /mnt/c/Qt/6.10.2/mingw_64/bin/moc.exe
+HospitalManagementSystem_autogen/timestamp: /mnt/c/Qt/6.10.2/mingw_64/bin/uic.exe
 HospitalManagementSystem_autogen/timestamp: CMakeFiles/HospitalManagementSystem_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target HospitalManagementSystem"
-	/usr/bin/cmake -E cmake_autogen /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/HospitalManagementSystem_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target HospitalManagementSystem"
+	/usr/bin/cmake -E cmake_autogen "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E touch "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build/HospitalManagementSystem_autogen/timestamp"
 
 HospitalManagementSystem_autogen: CMakeFiles/HospitalManagementSystem_autogen
 HospitalManagementSystem_autogen: HospitalManagementSystem_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/HospitalManagementSystem_autogen.dir/clean:
 .PHONY : CMakeFiles/HospitalManagementSystem_autogen.dir/clean
 
 CMakeFiles/HospitalManagementSystem_autogen.dir/depend:
-	cd /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build" "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS/CS 2/CS 2/CS_II_Project/build/CMakeFiles/HospitalManagementSystem_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/HospitalManagementSystem_autogen.dir/depend
 
